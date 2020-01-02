@@ -1,0 +1,165 @@
+body{
+    background:rgb(250,250,210);
+    /* rgb(240,248,255) */
+    /* rgb(230,230,250) */
+    /* rgb(240,255,240) */
+     /* rgba(255,239,213) */
+    }
+
+/* h1{
+    color: red;
+    } */
+a{
+height: 28px;
+}
+p{
+    font-size: 1.3em;
+line-height: 2;
+}
+/* i{
+    background: blue;
+} */
+.markup1{
+    border: 3px solid yellowgreen;
+}
+
+.markup{
+    border : 4px solid blueviolet; 
+    /* display: inline-block; */
+}
+
+
+.nav-item > a{
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+}
+.nav-item > a:hover{
+    background:rgb(220,220,220);
+    /* rgb(245,222,179); */
+    font-size: 1.10em;
+    /* color: white; */
+    letter-spacing:0.2em;
+}
+
+.slides{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: auto;
+    /* height: 50%; */
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+.activeSlide{
+    opacity:1 1;
+    z-index: 3;
+    width: auto;
+        /* height: 50%; */
+    box-sizing: border-box;
+    float: right;
+}
+/* 855.33 * 455.67 */
+/* .slideContainer{
+    height: 55%;
+} */
+#box{
+    /* background:rgb(71, 139,176); */
+    background: rgb(82,126,137);
+    background: -moz-linear-gradient(350deg, rgba(82,126,137,1) 21%, rgba(82,128,136,1) 46%, rgba(62,131,167,1) 52%);
+    background: -webkit-linear-gradient(350deg, rgba(82,126,137,1) 21%, rgba(82,128,136,1) 46%, rgba(62,131,167,1) 52%);
+    background: linear-gradient(350deg, rgba(82,126,137,1) 21%, rgba(82,128,136,1) 46%, rgba(62,131,167,1) 52%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#527e89",endColorstr="#3e83a7",GradientType=1);
+    /* position: absolute; */
+    /* padding-left: 150px */
+}
+/* #box > img{
+    position: relative; 
+    left: 180px
+} */
+#rid > aside{
+    width: auto;
+    position: relative;
+    right: 30px;
+    top: 85px;
+    height: 180px;
+}
+#cnavbar{
+    background: rgb(178,34,34);
+    }
+#Smwidget{
+    /* height: 60px; */
+    height: auto;
+    position: relative;
+    width: auto;
+    /* top: 80px; */
+        /* background: blue; */
+    
+    /* margin-left: -20px; */
+    /* padding-right: 19px; */
+    /* margin-right: 20px; */
+    display: inline-block;
+    writing-mode: vertical-lr;
+
+
+}
+/* .container-fluid{
+} */
+#buttonDesign > button{
+    /* font-size: 1.5em; */
+    border-radius: 80px;
+    position: inherit;
+    background: rgb(178,34,34);
+    height: 120px;
+    width: 29px;
+    /* writing-mode: vertical-lr; */
+        }
+
+/* div > button > .buttonDesign{
+    writing-mode: vertical-lr;
+} */
+
+button > #textSty{
+    font-family: 'Permanent Marker', cursive;
+    writing-mode: vertical-rl;
+} 
+
+.SmIc{
+    border-radius: 30px;
+    background:rgba(47,79,79,0.5);
+    font-size: 1.3em;
+    height: 50px;
+}
+#frame > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#Smwidget > button{
+    /* font-size: 1.5em; */
+    /* border-radius: 80px; */
+    /* background */
+    /* top: 20px; */
+    /* left: 12px; */
+    /* background:rgb(112,128,144); */
+    /* background: rgb(221,160,221); */
+    /* margin: 0 auto; */
+    /* position: inherit; */
+    /* right:17px; */
+/*/ 
